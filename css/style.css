@@ -1,0 +1,140 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  min-height: 100vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #222;
+}
+
+h1, h2, h3, h4, p, span{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-image: linear-gradient(48deg, #fbc531, #afa807);
+}
+
+.header .wrapper{
+  display: flex;
+  gap: 30px;
+}
+
+.header a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.curriculo-header, .contato-header, .projetos-header{
+  text-align: center;
+}
+
+.curriculo-header img, .contato-header img, .projetos-header img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fbc531;
+}
+
+.curriculo, .contato, .projetos{
+  display: grid;
+  gap: 30px;
+}
+
+.curriculo-introducao{
+  text-align: center;
+}
+
+.curriculo-introducao h1{
+  color: #fbc531;
+  font-size: 2em;
+}
+
+.curriculo-apresentacao{
+  display: grid;
+  gap: 30px;
+}
+
+.curriculo-apresentacao h2{
+  color: #fbc531;
+  margin-bottom: 15px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer svg{
+  width: 60px;
+  height: 60px;
+  fill: #fbc531;
+}
+
+.contato h1{
+  text-align: center;
+  color: #fbc531;
+}
+
+.contato form{
+  display: grid;
+  gap: 15px;
+  margin: auto;
+}
+
+.contato input, .contato textarea {
+  width: 500px;
+  border: 3px solid #fbc531;
+  border-radius: 7px;
+  padding: 6px 10px;
+  resize: none;
+}
+
+.contato button{
+  width: auto;
+  margin: auto;
+  border-radius: 50px;
+  background-color: #fbc531;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 20px;
+  border: none;  
+  cursor: pointer;
+}
+
+.projetos h1{
+  color: #fbc531;
+  text-align: center;
+}
+
+.projetos-imagem{
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 7px solid #fbc531;
+  margin: auto;
+}
+
+.projetos a{
+  text-align: center;
+  color: #fff;
+}
