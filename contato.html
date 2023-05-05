@@ -23,9 +23,9 @@
     <h1>Entre em contato 📧</h1>
     <form action="./contato.html" method="get">
       <label for="txtEmail">E-mail: </label>
-      <input type="email" name="txtEmail" id="txtEmail" placeholder="Digite seu e-mail...">
+      <input type="email" name="txtEmail" id="txtEmail" minlength="3" required="true" placeholder="Digite seu e-mail...">
       <label for="txtMensagem">Mensagem: </label>
-      <textarea name="txtMensagem" id="txtMensagem" cols="15" placeholder="Digite sua mensagem..."></textarea>
+      <textarea name="txtMensagem" id="txtMensagem" minlength="3" required="true"  cols="15" placeholder="Digite sua mensagem..."></textarea>
       <button type="submit">Enviar</button>  
     </form>
   </article>
