@@ -92,6 +92,13 @@ h1, h2, h3, h4, p, span{
   color: #fbc531;
 }
 
+.contato a{
+  margin: auto;
+  color: #fff;
+  text-decoration: underline 3px solid;
+  font-size: 1.3rem;
+}
+
 .contato form{
   display: grid;
   gap: 15px;
